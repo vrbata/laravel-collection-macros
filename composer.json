@@ -7,7 +7,6 @@
     ],
     "homepage": "https://github.com/spatie/laravel-collection-macros",
     "license": "MIT",
-    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Freek Van der Herten",
@@ -24,10 +23,15 @@
     ],
     "require": {
         "php": "^7.0",
-        "illuminate/pagination": "dev-master",
-        "illuminate/support": "dev-master",
-        "illuminate/validation": "dev-master",
-        "illuminate/view": "dev-master"
+        "illuminate/pagination": "dev-master as 5.6.0",
+        "illuminate/support": "dev-master as 5.6.0",
+        "illuminate/validation": "dev-master as 5.6.0",
+        "illuminate/view": "dev-master as 5.6.0",
+        "illuminate/contracts": "dev-master as 5.6.0",
+        "illuminate/filesystem": "dev-master as 5.6.0",
+        "illuminate/translation": "dev-master as 5.6.0",
+        "illuminate/container": "dev-master as 5.6.0",
+        "illuminate/events": "dev-master as 5.6.0"
     },
     "require-dev": {
         "amphp/parallel-functions": "^0.1.2",
